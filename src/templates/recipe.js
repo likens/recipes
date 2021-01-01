@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import ContentLink from "../components/ContentLink"
 
 export const RecipeTemplate = ({
   name,
@@ -55,9 +56,12 @@ export const RecipeTemplate = ({
               <ul className="recipe__list recipe__ingredients">
                 {ingredients && ingredients.map((ing, idx) => ( 
                   <li className="recipe__list-item recipe__ingredients-item" key={idx}>
-                    {ing.quantity ? `${ing.quantity} ` : ``}
-                    {ing.measurement ? `${ing.measurement}(s) ` : ``}
-                    {ing.name ? ing.name : ``}
+                    <input className="recipe__list-check" type="checkbox" id={`i${idx}`} />
+										<label className="recipe__list-label" htmlFor={`i${idx}`}>
+											{ing.quantity ? `${ing.quantity} ` : ``}
+											{ing.measurement ? `${ing.measurement}(s) ` : ``}
+											{ing.name ? ing.name : ``}
+										</label>
                   </li>
                 ))}
               </ul>
@@ -68,7 +72,12 @@ export const RecipeTemplate = ({
             <div className="recipe__content">
               <ol className="recipe__list recipe__directions">
                 {directions && directions.map((dir, idx) => ( 
-                  <li className="recipe__list-item recipe__directions-item" key={idx}>{dir.direction}</li>
+                  <li className="recipe__list-item recipe__directions-item" key={idx}>
+                      <input className="recipe__list-check" type="checkbox" id={`d${idx}`} />
+											<label className="recipe__list-label" htmlFor={`d${idx}`}>
+												{dir.direction}
+											</label>
+                  </li>
                 ))}
               </ol>
             </div>
@@ -82,12 +91,7 @@ export const RecipeTemplate = ({
         </div>
       </div>
       <div className="recipe__back">
-        <Link className="recipe__back-link" to="/">
-          <span className="recipe__back-icon">
-            <svg width="24" height="24" viewBox="0 0 320 512"><path d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"/></svg>
-          </span>
-          <span className="recipe__back-text">Back To Recipes</span>
-        </Link>
+          <ContentLink href={"/"} back={true} text={"Back To Recipes"} />
       </div>
     </section>
   )
@@ -106,7 +110,7 @@ const Recipe = ({ data }) => {
     <Layout>
       <RecipeTemplate
         helmet={
-          <Helmet titleTemplate="%s | MyGorma">
+          <Helmet titleTemplate="%s | Recipes">
             <title>{`${recipe.frontmatter.name} Recipe ${recipe.frontmatter.author ? 
               ` by ${recipe.frontmatter.author}` : ``}`}</title>
             {/* <meta

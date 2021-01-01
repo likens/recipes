@@ -79,7 +79,7 @@ body {
 		}
 		&-text {
 			order: 1;
-			padding-right: 1rem;
+			padding: 0 1rem;
 			font-weight: $bold;
 		}
 	}
@@ -205,6 +205,10 @@ body {
 	}
 	&__value {
 		padding-left: 1rem;
+		text-overflow: ellipsis;
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
 	}
 	&__section {
 		margin: 0 -2rem 3rem;
@@ -213,13 +217,13 @@ body {
 		padding: 2rem 2rem 0;
 		margin: 0;
 		list-style: none;
+		line-height: 1.4;
 		&-item {
 			display: flex;
-			align-items: center;
-			padding: .5rem 0;
+			padding: .75rem 0;
 		}
 		&-check {
-			margin:0 1rem 0 0;
+			margin:.5rem 1rem 0 0;
 			cursor: pointer;
 			&:checked + .recipe__list-label {
 				text-decoration: line-through;
@@ -240,9 +244,9 @@ body {
 	}
 	&s {
 		&__list {
-			padding: 0 2rem;
+			padding: 2rem 2rem 0;
 			display: grid;
-			// grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(calc(min(30rem, 100%)), 1fr));
 			grid-gap: 2rem;
 		}
 		&__heading {
