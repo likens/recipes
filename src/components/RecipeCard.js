@@ -3,22 +3,20 @@ import { Link } from "gatsby";
 
 const RecipeCard = ({ recipe }) => {
 
-	// let imageUrl = undefined;
-	// let imageStyle = undefined;
+	let imageUrl = undefined;
+	let imageStyle = undefined;
 
-	// if (recipe.image) {
-	// 	imageUrl = process.env.NODE_ENV !== "development"
-	// 				? recipe.image.url
-	// 				: process.env.API_URL + recipe.image.url;
-	// 	imageStyle = {
-	// 		backgroundImage: `url(${imageUrl})`
-	// 	}
-	// }
+	if (recipe.frontmatter.image) {
+		imageUrl = recipe.frontmatter.image;
+		imageStyle = {
+			backgroundImage: `url(${imageUrl})`
+		}
+	}
 		
   return (
 	  <div className="recipe recipe--list">
 		<Link className="recipe__link" to={recipe.fields.slug}>
-			<div className="recipe__image recipe__image--list"></div>
+			<div className="recipe__image recipe__image--list" style={imageStyle}></div>
 			<div className="recipe__info">
 				<div className="recipe__heading recipe__heading--list">{recipe.frontmatter.name}</div>
 				<div className="recipe__icon">
