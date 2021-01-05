@@ -58,23 +58,23 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: "Recipes",
-    //     short_name: "Recipes",
-    //     start_url: "/",
-    //     lang: "en",
-    //     background_color: "#ffffff",
-    //     theme_color: "#000000",
-    //     display: "fullscreen",
-    //     icon: "",
-    //     // An optional attribute which provides support for CORS check.
-    //     // If you do not provide a crossOrigin option, it will skip CORS for manifest.
-    //     // Any invalid keyword or empty string defaults to `anonymous`
-    //     crossOrigin: `use-credentials`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Recipes",
+        short_name: "Recipes",
+        start_url: "/",
+        lang: "en",
+        background_color: "#ffffff",
+        theme_color: "#000000",
+        display: "standalone",
+        icon: "src/img/icon.png",
+        // An optional attribute which provides support for CORS check.
+        // If you do not provide a crossOrigin option, it will skip CORS for manifest.
+        // Any invalid keyword or empty string defaults to `anonymous`
+        crossOrigin: `use-credentials`,
+      },
+    },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
