@@ -3,6 +3,7 @@ templateKey: recipe
 name: Long Island Iced Tea
 date: 2021-01-01T03:02:46.497Z
 inspiredby: https://www.thespruceeats.com/long-island-iced-tea-and-variations-759315
+image: /img/lit-5a8f365efa6bcc00372a7634.jpg
 ingredients:
   - name: gin
     quantity: 1/2
