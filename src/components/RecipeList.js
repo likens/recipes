@@ -10,7 +10,6 @@ class RecipeList extends React.Component {
     const { edges: recipes } = data.allMarkdownRemark
 
     return (
-
       <div className="recipes__list">
         {recipes?.map(({ node: recipe }, i) => (
             <RecipeCard recipe={recipe} key={`recipe__${i}`} />
@@ -33,7 +32,7 @@ export default () => (
     query={graphql`
       query RecipeListQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: ASC, fields: [frontmatter___name] }
           filter: { frontmatter: { templateKey: { eq: "recipe" } } }
         ) {
           edges {

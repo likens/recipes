@@ -16,7 +16,7 @@ const RecipeCard = ({ recipe }) => {
   return (
 	  <div className="recipe recipe--list">
 		<Link className="recipe__link" to={recipe.fields.slug}>
-			<div className="recipe__image recipe__image--list" style={imageStyle}></div>
+			<div className="recipe__image recipe__image--list" style={imageStyle}>{imageUrl}</div>
 			<div className="recipe__info">
 				<div className="recipe__heading recipe__heading--list">{recipe.frontmatter.name}</div>
 				<div className="recipe__icon">
