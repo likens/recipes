@@ -2,6 +2,7 @@
 templateKey: recipe
 name: Italian Meatballs
 date: 2020-07-25T23:14:39.101Z
+image: /img/italian-meatballs-horizontal-3-1545406095.jpg
 ingredients:
   - name: ground beef
     quantity: "1"
