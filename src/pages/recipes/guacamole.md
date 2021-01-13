@@ -4,6 +4,7 @@ name: Guacamole
 date: 2020-06-23T23:45:13.300Z
 inspiredby: Chipotle
 servingsize: "2"
+image: /img/chipotle-guacamole-recipe-copycat-culinary-hill-lr-04.jpg
 ingredients:
   - quantity: "2"
     measurement: ""
