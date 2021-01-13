@@ -3,6 +3,7 @@ templateKey: recipe
 name: Deviled Eggs
 date: 2021-01-01T01:25:04.915Z
 inspiredby: https://www.geniuskitchen.com/recipe/sweet-pickle-and-horseradish-deviled-eggs-255229
+image: /img/deviled-eggs-resize-7-2.jpg
 ingredients:
   - name: hardboiled eggs
     quantity: "6"
