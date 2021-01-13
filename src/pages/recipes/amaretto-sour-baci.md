@@ -3,6 +3,7 @@ templateKey: recipe
 name: Amaretto Sour Baci
 date: 2021-01-01T02:58:14.962Z
 inspiredby: https://www.food.com/amp/recipe/amaretto-sour-baci-163484
+image: /img/amaretto_sour_recipe_image-683x1024.jpg
 ingredients:
   - name: Sprite/7-Up
     quantity: "1.5"
