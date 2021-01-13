@@ -2,6 +2,7 @@
 templateKey: recipe
 name: Lava Flow
 date: 2020-06-28T00:41:43.792Z
+image: /img/lava-flow-recipe-hawaiian-tropical-drink-recipe-1532784-5-5b4aaf5fc9e77c0037eebb94.jpg
 ingredients:
   - name: light rum
     quantity: "1.25"
