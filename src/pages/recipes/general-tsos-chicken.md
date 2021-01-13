@@ -2,7 +2,7 @@
 templateKey: recipe
 name: General Tsos Chicken
 date: 2020-07-22T21:33:11.137Z
-image: ""
+image: /img/general-tso-s-chicken-sticky-rice-generaltso-chicken-rice-stickyrice-chinese-chinesefood-2.jpg
 ingredients:
   - name: chicken breasts (or thighs), boneless and skinless in 1 inch cubes
     quantity: 1 1/2
