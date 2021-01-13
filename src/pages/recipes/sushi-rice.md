@@ -6,6 +6,7 @@ inspiredby: Alton Brown
 preptime: 5 minutes
 cooktime: 15 minutes
 servingsize: 4 cups
+image: /img/how-to-make-sushi-rice-recipe-3.jpg
 ingredients:
   - name: sushi/short grain rice
     quantity: "2"
