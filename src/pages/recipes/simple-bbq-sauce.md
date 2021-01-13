@@ -2,6 +2,7 @@
 templateKey: recipe
 name: Simple BBQ Sauce
 date: 2021-01-01T01:41:35.075Z
+image: /img/15grillsauce-articlelarge.jpg
 ingredients:
   - name: chopped white (or sweet) onions
     quantity: "1"
