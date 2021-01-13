@@ -82,12 +82,12 @@ export const RecipeTemplate = ({
               </ol>
             </div>
           </div>
-          <div className="recipe__section recipe__section--related">
+          {/* <div className="recipe__section recipe__section--related">
             <div className="recipe__heading recipe__heading--content">Related</div>
             <div className="recipe__content">
               [related recipes here]
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="recipe__back">

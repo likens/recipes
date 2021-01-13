@@ -69,13 +69,23 @@ body {
 			&--back {
 				order: 0;
 			}
+			svg {
+				fill: $white;
+			}
 		}
 		&-link {
-			@include link;
-			padding: 1rem 1.5rem 1rem 2rem;
-			display: inline-flex;
-			align-items: center;
-			background: $white;
+			// @include link;
+			// padding: 1rem 1.5rem 1rem 2rem;
+			// display: inline-flex;
+			// align-items: center;
+			// background: $white;
+			@include heading;
+			display: flex;
+			font-size: 2rem;
+			text-decoration: none;
+			width: 100%;
+			background: $black;
+			color: $white;
 		}
 		&-text {
 			order: 1;
@@ -234,7 +244,6 @@ body {
 	}
 	&__back {
 		text-align: center;
-		padding:0 0 2rem;
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -255,11 +264,11 @@ body {
 }
 
 .footer {
-	background: $black;
-	color: $white;
-	font-weight: $bold;
-	padding: .5rem;
-	text-align: center;
-	font-size: 1.2rem;
+	// background: $black;
+	// color: $white;
+	// font-weight: $bold;
+	// padding: .5rem;
+	// text-align: center;
+	// font-size: 1.2rem;
 	margin: 2rem 0 0;
 }
