@@ -3,6 +3,7 @@ templateKey: recipe
 name: Bearnaise Sauce
 date: 2021-01-01T01:47:58.309Z
 inspiredby: NY Times Cooking
+image: /img/10mag-10eat-t_ca0-articlelarge.jpg
 ingredients:
   - name: white wine vinegar
     quantity: 1/4
