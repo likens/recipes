@@ -5,7 +5,7 @@ date: 2020-06-23T02:09:16.969Z
 author: Caleb Likens
 inspiredby: http://www.tablefortwoblog.com/ridiculously-amazing-asian-ramen-salad/
 servingsize: "4"
-image: ""
+image: /img/asian-ramen-salad-tablefortwoblog-1.jpg
 ingredients:
   - quantity: "16"
     measurement: ounce
