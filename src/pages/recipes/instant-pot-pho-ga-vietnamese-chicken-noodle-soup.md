@@ -1,6 +1,6 @@
 ---
 templateKey: recipe
-name: Instant Pot Pho Ga (Vietnamese Chicken Noodle Soup)
+name: Instant Pot Pho Ga
 date: 2021-01-25T22:50:23.435Z
 inspiredby: https://www.epicurious.com/recipes/food/views/instant-pot-vietnamese-chicken-noodle-soup-pho-ga
 image: /img/instant-pot-chicken-pho-020717.jpg
