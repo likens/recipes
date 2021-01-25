@@ -3,7 +3,7 @@ templateKey: recipe
 name: Char Siu Pork Ribs (Chinese BBQ)
 date: 2021-01-25T00:17:09.230Z
 inspiredby: http://www.thewolfepit.com/2016/03/chinese-bbq-ribs-five-spice-pork-spare.html
-image: /img/char-siu.jpg
+image: /img/chinatown-ribs.jpg
 ingredients:
   - name: pork spare ribs
     quantity: 2-3
