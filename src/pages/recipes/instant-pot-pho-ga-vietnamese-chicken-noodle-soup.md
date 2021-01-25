@@ -31,8 +31,11 @@ ingredients:
   - name: sugar
     quantity: "1"
     measurement: tablespoon
-  - name: water
-    quantity: "8"
+  - name: chicken stock or water
+    quantity: "4"
+    measurement: cup
+  - name: vegetable stock or water
+    quantity: "4"
     measurement: cup
   - name: kosher salt, to taste
   - name: freshly ground black pepper, to taste
