@@ -6,6 +6,7 @@ inspiredby: https://www.foodnetwork.com/recipes/tyler-florence/mexican-grilled-c
 preptime: "5"
 cooktime: "20"
 servingsize: "4"
+image: /img/1382539713661.jpeg
 ingredients:
   - name: ears of corn
     quantity: "4"
