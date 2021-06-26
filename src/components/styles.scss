@@ -128,12 +128,15 @@ body {
 	}
 }
 
-.recipe {&__link {
-	@include link;
-	display: grid;
-	&:hover {
+.recipe {
+	&__link {
+		@include link;
+		display: grid;
+		grid-template-rows: 20rem auto;
+		height: 100%;
+		&:hover {
 			.recipe__image {
-				background-size: 120%;
+				background-size: 150%;
 			}
 		}
 	}
@@ -145,7 +148,7 @@ body {
 	}
 	&__image {
 		height: 20rem;
-		background-size: 100%;
+		background-size: 120%;
 		background-color: #eee;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -229,6 +232,7 @@ body {
 		line-height: 1.4;
 		&-item {
 			display: flex;
+			line-height: 1;
 			padding: .75rem 0;
 		}
 		&-check {
