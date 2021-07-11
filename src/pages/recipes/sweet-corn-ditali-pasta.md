@@ -1,6 +1,6 @@
 ---
 templateKey: recipe
-name: Sweet Corn Ditali Pasta
+name: Sweet Corn Ditali Pasta with Cherry Tomatoes, Jalapeno, & Ricotta Cheese
 date: 2021-07-11T15:36:43.961Z
 author: BlueApron
 inspiredby: https://www.blueapron.com/recipes/965
