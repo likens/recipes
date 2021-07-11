@@ -4,6 +4,7 @@ name: Mexican Beef Quesadillas with Creamy Corn & Shishito Pepper Salsa
 date: 2021-07-11T15:58:21.352Z
 author: Blue Apron
 inspiredby: https://www.blueapron.com/recipes/950
+servingsize: "2"
 image: /img/082216_2pm_beefquesadillas-6176_sq.jpg
 ingredients:
   - name: ground beef
