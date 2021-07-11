@@ -4,6 +4,7 @@ name: BBQ Sloppy Joes with Green Bean & Tomato Salad
 date: 2021-07-11T15:51:23.019Z
 author: Blue Apron
 inspiredby: https://www.blueapron.com/recipes/962
+servingsize: "2"
 image: /img/090516_2pm_sloppyjoessliders_mg_9087_sq.jpg
 ingredients:
   - name: ground beef
