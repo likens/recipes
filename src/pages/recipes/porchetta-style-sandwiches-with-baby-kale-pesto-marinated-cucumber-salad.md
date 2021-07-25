@@ -4,6 +4,7 @@ name: Porchetta-Style Sandwiches with Baby Kale Pesto & Marinated Cucumber Salad
 date: 2021-07-25T01:10:20.778Z
 author: Blue Apron
 inspiredby: https://www.blueapron.com/recipes/956
+image: /img/finals_sizing_template082916_2pm_porchettastylepanini-7378_sq.jpeg
 ingredients:
   - name: pork roast
     quantity: "1"
