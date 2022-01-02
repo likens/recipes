@@ -26,12 +26,9 @@ ingredients:
   - name: yellow mustard
     quantity: "1"
     measurement: teaspoon
-  - name: salt
-    quantity: 1/2
-    measurement: teaspoon
-  - name: ground black pepper
-    quantity: 1/2
-    measurement: teaspoon
+  - name: salt and pepper to taste
+    quantity: ""
+    measurement: null
   - name: papika, for garnish (optional)
     quantity: "1"
     measurement: dash
