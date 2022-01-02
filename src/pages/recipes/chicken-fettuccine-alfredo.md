@@ -6,6 +6,7 @@ inspiredby: https://www.saltandlavender.com/chicken-fettuccine-alfredo/
 preptime: "10"
 cooktime: "20"
 servingsize: "4"
+image: /img/chicken-fettuccine-alfredo-1-720x1080.jpg
 ingredients:
   - name: chicken breasts, cut in half lengthwise
     quantity: "2"
