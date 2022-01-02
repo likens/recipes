@@ -145,6 +145,7 @@ body {
 		padding: 2rem;
 		align-items: center;
 		justify-content: space-between;
+        	overflow: hidden;
 	}
 	&__image {
 		height: 20rem;
@@ -171,11 +172,15 @@ body {
 		&--list {
 			background: 0;
 			color: $black;
+			display: block;
 			text-align: left;
 			justify-content: flex-start;
 			font-size: 2rem;
 			padding: 0 1rem 0 0;
 			text-transform: none;
+		    	text-overflow: ellipsis;
+		    	overflow: hidden;
+		    	white-space: nowrap;
 		}
 		&--detail {
 			position: sticky;
